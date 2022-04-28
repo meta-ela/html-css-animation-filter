@@ -7,3 +7,10 @@
 }
 
 
+.ex-2-square {
+    transition: 3s ease-out;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
