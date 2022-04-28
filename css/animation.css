@@ -62,7 +62,7 @@
 
 
 .ex-8-img {
-    transition: border-radius 2s, filter 2s; 
+    transition: 2s;
 }
 
 .ex-8-img:hover {
@@ -73,7 +73,7 @@
 
 
 .ex-9-img {
-    transition: border-radius 2s, filter 2s, transform 2s;
+    transition: 2s;
 }
 
 .ex-9-img:hover {
@@ -82,3 +82,24 @@
     filter: blur(10%);
     transform: scale(1.5);
 }
+
+
+.ex-10-icon {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /*animation: spin 1s linear infinite;*/
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
