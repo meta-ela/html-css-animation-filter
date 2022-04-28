@@ -70,3 +70,15 @@
     filter: sepia(70%);
     filter: blur(10%);
 }
+
+
+.ex-9-img {
+    transition: border-radius 2s, filter 2s, transform 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: sepia(70%);
+    filter: blur(10%);
+    transform: scale(1.5);
+}
