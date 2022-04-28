@@ -90,8 +90,6 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     /*animation: spin 1s linear infinite;*/
-
-    transform: rotate(1turn);
 }
 
 @keyframes spin {
@@ -103,6 +101,28 @@
     }
 }
 
+
+.ex-11-icon {
+    
+}
+
+.ex-11-icon:hover {
+    animation-name: littlespin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes littlespin {
+    0% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
 
 
 
